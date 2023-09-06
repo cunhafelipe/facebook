@@ -1,0 +1,42 @@
+footer {
+  background-color: #fff;
+  color: #737373;
+  width: 100%;
+}
+
+.container-footer {
+  width: 980px;
+  margin: 0 auto;
+  padding: 30px 20px;
+  height: 205px;
+}
+
+.pageFooter ul {
+  display: flex;
+  font-size: 1.2rem;
+  flex-wrap: wrap;
+  gap: 8px;
+  align-items: center;
+}
+
+.pageFooter ul li:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.borda-footer {
+  border-bottom: 1px solid #dddfe2;
+  font-size: 1px;
+  height: 8px;
+  margin-bottom: 8px;
+}
+
+.copyright {
+  font-size: 1.1rem;
+  padding-top: 30px;
+}
+
+.btn {
+  width: 30px;
+  padding: 0px 5px;
+}

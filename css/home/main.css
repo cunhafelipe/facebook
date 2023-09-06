@@ -1,0 +1,121 @@
+.main {
+  max-width: 1000px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  gap: 70px;
+  padding-top: 100px;
+  padding-bottom: 165px;
+}
+
+.facebook {
+  display: flex;
+  flex-direction: column;
+  margin-top: -110px;
+}
+
+.facebook h2 {
+  margin-left: 30px;
+  color: #1c1e21;
+  font-weight: 500;
+  font-size: 28px;
+  font-weight: normal;
+  line-height: 32px;
+  width: 500px;
+  margin-top: -6px;
+}
+
+.form-login {
+  display: flex;
+  flex-direction: column;
+  height: 456px;
+}
+
+.form {
+  background-color: #fff;
+  border: none;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1), 0 8px 16px rgba(0, 0, 0, 0.1);
+  box-sizing: border-box;
+  margin: 40px 0 0;
+  padding: 20px 0 28px;
+  width: 396px;
+  text-align: center;
+  padding: 20px 15px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+input {
+  padding: 14px 16px;
+  border-radius: 6px;
+  border: 1px solid #dddfe2;
+  font-size: 1.7rem;
+}
+
+input:focus {
+  box-shadow: 0 0 0 0;
+  outline: 0;
+  border-color: #1877f2;
+}
+
+.entrar {
+  cursor: pointer;
+  color: #fff;
+  background-color: #1877f2;
+  border: none;
+  border-radius: 6px;
+  font-size: 20px;
+  line-height: 48px;
+  padding: 0 16px;
+  font-weight: bold;
+}
+
+form a {
+  color: #1877f2;
+  font-size: 14px;
+  font-weight: 500;
+  margin-top: 5px;
+}
+
+.borda {
+  align-items: center;
+  border-bottom: 1px solid #dadde1;
+  display: flex;
+  margin: 10px 16px;
+  text-align: center;
+}
+
+.criar {
+  cursor: pointer;
+  color: #fff;
+  background-color: #42b72a;
+  border: none;
+  border-radius: 6px;
+  font-size: 17px;
+  line-height: 48px;
+  padding: 0 16px;
+  font-weight: bold;
+  width: 170px;
+  display: inline-block;
+  margin: 6px 0px 6px 0px;
+}
+
+.form-login p {
+  margin-top: 28px;
+  font-size: 1.4rem;
+  text-align: center;
+}
+
+.form-login p a {
+  font-weight: bold;
+  color: #1c1e21;
+}
+
+.form-login a:hover {
+  text-decoration: underline;
+}
